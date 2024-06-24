@@ -61,8 +61,9 @@ Commands:
   start [options] [widgetPath]   starts the widget builder locally
   validate [options] <file>
   create <widget-template-name>  Create a blank widget template
-  publish <widget-template>      Releases the widget template to the store
-                                 belonging to the env config
+  publish <widget-template>      Releases the widget template to the store belonging to the env config
+  delete [widget-template]       Delete a widget template
+  download                       Select your widget template to download
   help [command]                 display help for command
 ```
 
