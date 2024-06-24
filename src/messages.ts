@@ -57,5 +57,9 @@ export const messages = {
         failure: 'Unable to remove widget template',
         invalidUuid: 'Please provide a valid widget-template uuid',
     },
+    widgetDownload: {
+        notFound: 'Widget not found',
+        success: (widgetName: string) => `${widgetName} successfully downloaded!`,
+    },
 };
 /* eslint-enable max-len */
